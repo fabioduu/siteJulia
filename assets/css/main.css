@@ -133,7 +133,37 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1152px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #000;
+			}
 			html {
 				font-size: 14pt;
 			}
@@ -196,9 +226,32 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		color: #000; 
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	p.outra {
+		margin: 0 0 2rem 0;
+		color: #fff; 
+	}
+
+	@media screen and (max-width: 1152px) {
+		p.outra {
+			margin: 0 0 2rem 0;
+			color: #000; 
+		}
+
+	}
+
+	h1, h2, h4, h5, h6 {
+		color: #fff;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-weight: 600;
+		letter-spacing: 0.175em;
+		line-height: 1.75;
+		margin: 0 0 1.5rem 0;
+		text-transform: uppercase;
+	}
+	h3 {
 		color: #fff;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
@@ -845,7 +898,19 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1090,7 +1155,33 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1152px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1861,7 +1952,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.325rem;
 		border: 0;
-		box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.63);
 		color: #fff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1883,7 +1974,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #f1d3b6;
+			box-shadow: inset 0 0 0 2px #f0c194;
 			color: #fff !important;
 		}
 
@@ -3093,7 +3184,33 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1152px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
 			.gallery a img {
 				height: 20rem;
 			}
@@ -3181,7 +3298,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				color: #fff;
+				color: #000;
 				display: block;
 				font-size: 1.25rem;
 				height: 3.25rem;
@@ -3461,6 +3578,33 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
 
 			#wrapper {
 				padding: 0 0 8rem 0;
@@ -3516,7 +3660,37 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) and (max-width: 1152px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
 			#wrapper > section.intro > header > * {
 				width: 100%;
 				
@@ -3529,6 +3703,46 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			} 
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
 
 				#wrapper > section:last-of-type > header:after {
 					left: calc(50vw - 4rem - 0.25rem + 1px);
@@ -3541,7 +3755,37 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1152px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
 			#wrapper {
 				padding: 0;
 			}
@@ -3709,7 +3953,37 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
 			#wrapper section {
 				margin: 3rem 0 0 0;
 			}
@@ -3745,7 +4019,37 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #000;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
 			#wrapper section {
 				margin: 2.25rem 0 0 0;
 			}
@@ -3830,7 +4134,46 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1280px) {
-
+			h1, h2, h4, h5, h6 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			h3 {
+				color: #fff;
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-weight: 600;
+				letter-spacing: 0.175em;
+				line-height: 1.75;
+				margin: 0 0 1.5rem 0;
+				text-transform: uppercase;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
+			p {
+				margin: 0 0 2rem 0;
+				color: #fff;
+			}
+			a {
+				-moz-transition: border-bottom-color 0.25s ease-in-out;
+				-webkit-transition: border-bottom-color 0.25s ease-in-out;
+				-ms-transition: border-bottom-color 0.25s ease-in-out;
+				transition: border-bottom-color 0.25s ease-in-out;
+				text-decoration: none;
+				color: #fff;
+				border-bottom: dotted 1px;
+			}
 			#wrapper > section.intro > header > * {
 				transition: transform 1s ease, opacity 1s ease;
 			}
@@ -3875,7 +4218,38 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 1280px) {
+		h1, h3, h2, h4, h5, h6 {
+			color: #fff;
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.175em;
+			line-height: 1.75;
+			margin: 0 0 1.5rem 0;
+			text-transform: uppercase;
+		}
 
+		a {
+			-moz-transition: border-bottom-color 0.25s ease-in-out;
+			-webkit-transition: border-bottom-color 0.25s ease-in-out;
+			-ms-transition: border-bottom-color 0.25s ease-in-out;
+			transition: border-bottom-color 0.25s ease-in-out;
+			text-decoration: none;
+			color: #fff;
+			border-bottom: dotted 1px;
+		}
+		p {
+			margin: 0 0 2rem 0;
+			color: #000;
+		}
+		a {
+			-moz-transition: border-bottom-color 0.25s ease-in-out;
+			-webkit-transition: border-bottom-color 0.25s ease-in-out;
+			-ms-transition: border-bottom-color 0.25s ease-in-out;
+			transition: border-bottom-color 0.25s ease-in-out;
+			text-decoration: none;
+			color: #fff;
+			border-bottom: dotted 1px;
+		}
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
 		}
