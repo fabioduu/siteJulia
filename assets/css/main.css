@@ -1950,7 +1950,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
 		transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
 		background-color: transparent;
-		border-radius: 0.325rem;
+		border-radius: 0.325rem; 
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.63);
 		color: #fff !important;
@@ -1974,7 +1974,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #f0c194;
+			box-shadow: inset 0 0 0 2px #f1a416d7;
 			color: #fff !important;
 		}
 
@@ -1983,8 +1983,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(252, 168, 73, 0.25);
-			box-shadow: inset 0 0 0 2px #f1d3b6;
+			background-color: #f1a416d7;
+			box-shadow: inset 0 0 0 2px #f1a416d7;
 			color: #fff !important;
 		}
 
@@ -2052,7 +2052,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #857754;
+			background-color: #f1a416d7;
 			box-shadow: none;
 			color: #fff !important;
 		}
