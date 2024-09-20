@@ -2055,6 +2055,7 @@ input, select, textarea {
 			background-color: #f1a416d7;
 			box-shadow: none;
 			color: #fff !important;
+			font-size: 17px; 
 		}
 
 			input[type="submit"].primary:hover,
@@ -2842,7 +2843,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.25s ease-in-out;
 				-ms-transition: background-color 0.25s ease-in-out;
 				transition: background-color 0.25s ease-in-out;
-				width: 2.25rem;
+				width: 4.25rem;
 				height: 2.25rem;
 				text-align: center;
 				line-height: 2.25rem;
@@ -2851,11 +2852,11 @@ input, select, textarea {
 			}
 
 				ul.icons li .icon:before {
-					font-size: 1.25rem;
+					font-size: 2.25rem;
 				}
 
 				ul.icons li .icon:hover {
-					background-color: rgba(144, 144, 144, 0.1);
+					background-color: rgba(245, 243, 243, 0.1);
 				}
 
 /* Table */
@@ -3038,17 +3039,17 @@ input, select, textarea {
 				display: block;
 				height: 25vw;
 				min-height: 18rem;
-				object-fit: cover;
+				object-fit: contain;
 				object-position: center;
 				width: 100%;
 			}
 
 			.gallery a.landscape {
-				width: 100%;
+				width: 90%;
 			}
 
 				.gallery a.landscape img {
-					height: 30vw;
+					height: 0vw;
 				}
 
 			.gallery a.portrait img {
@@ -3216,7 +3217,7 @@ input, select, textarea {
 			}
 
 			.gallery a.landscape img {
-				height: 25rem;
+				height: 15rem; 
 			}
 
 			.gallery a.portrait img {
@@ -4250,6 +4251,8 @@ input, select, textarea {
 			color: #fff;
 			border-bottom: dotted 1px;
 		}
+		.disabled {pointer-events:none}
+		
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
 		}
